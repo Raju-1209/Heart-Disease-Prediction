@@ -53,7 +53,7 @@ with st.container(border=True):
 
         if pred==0:
             st.subheader("LOW RISK OF HEART DISEASE")
-            st.image(r"C:\Phython\heartdiseasepred\hdvenv\lowrisk.png", width=100)
+            st.image("lowrisk.png", width=100)
         else:
             st.subheader("HIGH RISK OF HEART DISEASE")
-            st.image(r"C:\Phython\heartdiseasepred\hdvenv\highrisk.png", width=100)
+            st.image("highrisk.png", width=100)
